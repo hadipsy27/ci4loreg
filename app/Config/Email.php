@@ -8,13 +8,15 @@ class Email extends BaseConfig
 {
     /**
      * @var string
+     * Apabila ada masalah seperti reset password, kirim email dll
+     * menggunakan email ini
      */
-    public $fromEmail;
+    public $fromEmail = 'badarawuhi@gmail.com';
 
     /**
      * @var string
      */
-    public $fromName;
+    public $fromName = 'badarawuhi';
 
     /**
      * @var string
